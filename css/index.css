@@ -76,10 +76,10 @@ body {
   #nav > .header {
     margin-bottom: 10px; }
     #nav > .header > .title {
-      font-size: 40px;
+      font-size: 36px;
       line-height: 53px;
       color: #333;
-      font-family: MaturaScriptCapitals; }
+      font-family: Microsoft YaHei; }
       #nav > .header > .title:hover {
         opacity: .7; }
   #nav > .ctnWrap {
@@ -156,6 +156,10 @@ body {
       text-decoration: underline; }
 
 .project-card {
+  border-style:inset;
+  border-width:3px;
+  border-color:#ce3380;
+  border-radius:10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
