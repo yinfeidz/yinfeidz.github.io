@@ -188,6 +188,12 @@ body {
       font-size: 16px;
       line-height: 30px;
       opacity: .5; }
+
+    .project-card > .ctnWrap > .cardBuy {
+      font-size: 16px;
+      line-height: 30px;
+      opacity: .5; }
+
   .project-card.project-card-continuous {
     flex-direction: row-reverse;
     margin: 0;
@@ -223,6 +229,7 @@ body {
         margin-right: 0;
         margin-bottom: 20px;
         width: 100%; } }
+
 
 .article {
   margin: 64px 0 80px;
