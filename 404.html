@@ -1,25 +1,38 @@
----
-layout: default
-description: "你来到了没有知识的荒原 🙊"
-header-img: "img/404-bg.jpg"
-permalink: /404.html
----
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.catfish-cms.com/lost.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://www.catfish-cms.com/public/common/images/favicon.ico">
+    <title>404页面</title>
+
+    <link rel="stylesheet" href="./404pages/bootstrap.min.css">
+    <link href="./404pages/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row pad-top text-center">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>  您访问的页面出去玩了! </h2>
+            <h5> 您访问的页面不存在，请点击页底的链接返回</h5>
+            <span id="error-link">404</span>
+            <h2>! 访问出错 !</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="bigfont">
+                <span class="glyphicon"></span>
+            </div>
+            <a href="/" class="btn btn-primary">返回首页</a><br><br>
+        </div>
+    </div>
+</div>
+<script src="./404pages/jquery.min.js"></script>
+<script src="./404pages/countUp.js"></script>
+<script src="./404pages/custom.js"></script>
 
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="site-heading" id="tag-heading">
-					<h1>404</h1>
-					<span class="subheading">{{ page.description }}</span>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
-
-<script>
-	document.body.classList.add('page-fullscreen');
-</script>
+</body></html>
